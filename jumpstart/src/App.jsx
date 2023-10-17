@@ -25,35 +25,35 @@ function App() {
       </div>
 
       <div className="User grid grid-cols-1 lg:grid-cols-3 gap-12 place-items-center pt-[6rem]">
-        <div className="UserTwo shadow rounded-md bg-lightblue">
-          <div className="flex justify-between">
-            <div className="comma"><img src={Comma} alt="LandingImage" className='p-4'/></div>
-            <div className="image"><img src={Profile} alt="LandingImage" className='-mt-[50%]'/></div>
-            <div className="comma invisible"><img src={Comma} alt="LandingImage" className='p-4'/></div>
+        <div className="shadow rounded-md bg-lightblue">
+          <div className="flex justify-between px-4">
+            <div className="comma"><img src={Comma} alt="LandingImage" className='py-4'/></div>
+            <div className="image"><img src={Profile} alt="LandingImage" className='-mt-[50%] rounded-full border-[2px]'/></div>
+            <div className="comma hidden lg:block lg:invisible"><img src={Comma} alt="LandingImage" className='py-4'/></div>
           </div>
-          <div className="Content font-open p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+          <div className="Content font-open p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
 
-        <div className="UserTwo shadow rounded-md bg-lightblue">
-          <div className="flex justify-between">
-            <div className="comma"><img src={Comma} alt="LandingImage" className='p-4'/></div>
-            <div className="image"><img src={Profile} alt="LandingImage" className='-mt-[50%]'/></div>
-            <div className="comma invisible"><img src={Comma} alt="LandingImage" className='p-4'/></div>
+        <div className="shadow rounded-md bg-lightblue">
+          <div className="flex justify-between px-4">
+            <div className="comma"><img src={Comma} alt="LandingImage" className='py-4'/></div>
+            <div className="image"><img src={Profile} alt="LandingImage" className='-mt-[50%] rounded-full border-[2px]'/></div>
+            <div className="comma hidden lg:block lg:invisible"><img src={Comma} alt="LandingImage" className='py-4'/></div>
           </div>
-          <div className="Content font-open p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+          <div className="Content font-open p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
 
-        <div className="UserTwo shadow rounded-md bg-lightblue">
-          <div className="flex justify-between">
-            <div className="comma"><img src={Comma} alt="LandingImage" className='p-4'/></div>
-            <div className="image"><img src={Profile} alt="LandingImage" className='-mt-[50%]'/></div>
-            <div className="comma invisible"><img src={Comma} alt="LandingImage" className='p-4'/></div>
+        <div className="shadow rounded-md bg-lightblue">
+          <div className="flex justify-between px-4">
+            <div className="comma"><img src={Comma} alt="LandingImage" className='py-4'/></div>
+            <div className="image"><img src={Profile} alt="LandingImage" className='-mt-[50%] rounded-full border-[2px]'/></div>
+            <div className="comma hidden lg:block lg:invisible"><img src={Comma} alt="LandingImage" className='py-4'/></div>
           </div>
-          <div className="Content font-open p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+          <div className="Content font-open p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
       </div>
 
-      <div className="Brand grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 pt-[6rem]">
+      <div className="Brand grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 pt-[3rem]">
         <div className="Content">
           <div className="Header font-space text-6xl font-bold text-red">Brand Identity</div>
           <div className="SubHeader font-space text-5xl font-bold text-blue">What Makes You, You</div>
