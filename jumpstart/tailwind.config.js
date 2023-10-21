@@ -9,6 +9,7 @@ export default {
       transparent: 'transparent',
       current: 'currentColor',
       'red': '#ED6D48',
+      'lightred': '#EFBEA2',
       'blue': '#5174C7',
       'lightblue': '#A2B9EF',
       'white': '#FFFCF9',
