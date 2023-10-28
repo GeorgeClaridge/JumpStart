@@ -100,6 +100,21 @@ function App() {
 
       </div>
 
+      <div className="User grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center py-[3rem] bg-white md:px-20 xl:px-60 px-4">
+        <div className="shadow rounded-md bg-lightblue p-4">
+          <div className="Name font-space text-2xl font-bold">Header</div>
+          <div className="Content font-open py-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+        </div>
+
+        <div className="shadow rounded-md bg-lightred p-4">
+          <div className="Header text"></div>
+          <div className="Name font-space text-2xl font-bold">Header</div>
+          <div className="Content font-open py-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+        </div>
+
+
+      </div>
+
     </div>
   )
 }
