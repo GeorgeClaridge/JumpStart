@@ -5,18 +5,18 @@ function App() {
 
   return (
     <div className="Content bg-white">
-      <div className="Navbar flex justify-between py-4 md:px-20 xl:px-60 px-4">
+      <div className="Navbar flex justify-between py-4 md:px-20 xl:px-40 px-4">
         <img src={Logo} alt="Logo" className=''/>
         <button className='py-2 px-4 bg-red shadow text-2xl font-space font-bold hover:bg-blue hover:text-white duration-300'>Join Now</button>
       </div>
 
-      <div className="Landing grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 md:px-20 xl:px-60 px-4 pb-[3rem] bg-white">
+      <div className="Landing grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 md:px-20 xl:px-40 px-4 pb-[3rem] bg-white">
 
         <img src={LandingImage} alt="LandingImage" className='object-contain h-[30rem]'/>
 
         <div className="Content">
-          <div className="Header font-space text-6xl font-bold text-blue">Jump Into Action</div>
-          <div className="SubHeader font-space text-xl font-bold py-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div className="Header font-space text-6xl font-bold text-blue tracking-tighter">Jump Into Action</div>
+          <div className="SubHeader font-space text-xl font-bold pb-2 pt-4 text-black leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
           <button className='py-2 px-4 bg-red shadow text-2xl font-space font-bold hover:bg-blue hover:text-white duration-300'>Join Now</button>
         </div>
         
@@ -40,14 +40,14 @@ function App() {
         </div>
       </div>
 
-      <div className="User grid grid-cols-1 lg:grid-cols-3 gap-12 place-items-center py-[3rem] bg-white md:px-20 xl:px-60 px-4">
+      <div className="User grid grid-cols-1 lg:grid-cols-3 gap-12 place-items-center py-[3rem] bg-white md:px-20 xl:px-40 px-4">
         <div className="shadow rounded-md bg-lightblue p-4">
           <div className="flex justify-between">
             <div className="Profile w-24 h-24 mr-4"><div className="image"><img src={Profile} alt="LandingImage" className='rounded-full border-[3px]'/></div></div>
             <div className="Comma"><img src={CommaBlue} alt="Comma" className=''/></div>
           </div>
-          <div className="Name font-space text-2xl font-bold pt-4">John Smith, CEO</div>
-          <div className="Content font-open">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="Name font-space text-2xl font-bold pt-6 pb-1">John Smith, CEO</div>
+          <div className="Content font-open leading-7">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
         </div>
 
         <div className="shadow rounded-md bg-lightred p-4">
@@ -55,8 +55,8 @@ function App() {
             <div className="Profile w-24 h-24 mr-4"><div className="image"><img src={Profile} alt="LandingImage" className='rounded-full border-[3px]'/></div></div>
             <div className="Comma"><img src={CommaRed} alt="Comma" className=''/></div>
           </div>
-          <div className="Name font-space text-2xl font-bold pt-4">John Smith, CEO</div>
-          <div className="Content font-open">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="Name font-space text-2xl font-bold pt-6 pb-1">John Smith, CEO</div>
+          <div className="Content font-open leading-7">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
         </div>
 
         <div className="shadow rounded-md bg-lightblue p-4">
@@ -64,8 +64,8 @@ function App() {
             <div className="Profile w-24 h-24 mr-4"><div className="image"><img src={Profile} alt="LandingImage" className='rounded-full border-[3px]'/></div></div>
             <div className="Comma"><img src={CommaBlue} alt="Comma" className=''/></div>
           </div>
-          <div className="Name font-space text-2xl font-bold pt-4">John Smith, CEO</div>
-          <div className="Content font-open">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="Name font-space text-2xl font-bold pt-6 pb-1">John Smith, CEO</div>
+          <div className="Content font-open leading-7">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
         </div>
 
       </div>
@@ -88,11 +88,11 @@ function App() {
         </div>
       </div>
 
-      <div className="Landing grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 md:px-20 xl:px-60 py-[3rem] px-4 bg-white">
+      <div className="Landing grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 md:px-20 xl:px-40 py-[3rem] px-4 bg-white">
 
         <div className="Content">
-          <div className="Header font-space text-6xl font-bold text-blue">Jump Into Action</div>
-          <div className="SubHeader font-space text-xl font-bold py-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div className="Header font-space text-6xl font-bold text-blue tracking-tighter">Get Started Now</div>
+          <div className="SubHeader font-space text-xl font-bold pt-4 pb-2 text-black leading-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
           <button className='py-2 px-4 bg-red shadow text-2xl font-space font-bold hover:bg-blue hover:text-white duration-300'>Join Now</button>
         </div>
 
@@ -100,16 +100,15 @@ function App() {
 
       </div>
 
-      <div className="User grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center py-[3rem] bg-white md:px-20 xl:px-60 px-4">
+      <div className="User grid grid-cols-1 lg:grid-cols-2 gap-12 place-items-center py-[3rem] bg-white md:px-20 xl:px-40 px-4">
         <div className="shadow rounded-md bg-lightblue p-4">
           <div className="Name font-space text-2xl font-bold">Header</div>
-          <div className="Content font-open py-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="Content font-open leading-7 py-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
         </div>
 
         <div className="shadow rounded-md bg-lightred p-4">
-          <div className="Header text"></div>
           <div className="Name font-space text-2xl font-bold">Header</div>
-          <div className="Content font-open py-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+          <div className="Content font-open leading-7 py-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</div>
         </div>
 
 
